@@ -1,0 +1,140 @@
+
+.menu{
+
+    background-color: rgb(255, 255, 255); /* Azul */
+    padding: 10px;
+    box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2), 0 0px 40px 0 rgba(255, 255, 255, 0.19);
+    color: rgb(255, 255, 255);
+
+}
+.menu :active{
+
+    background-color: none;
+    
+}
+body{
+
+    background-color: rgb(0, 0, 0);
+}
+.secao{
+
+    height: 300px;
+}
+.pesquisar{
+    display: flex; 
+    align-items : center;
+    justify-content: center;
+    gap: 10px;
+}
+.pesquisar img{
+    
+    width: 30px;
+    height: 30px;
+}
+.pesquisar input:active {
+
+    box-shadow: none;
+}
+.pesquisar input{
+
+    padding: 5px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.19);
+
+}
+.produtos {
+
+    padding: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    text-align: center;
+    
+ 
+}
+.comprar{
+
+    display: flex;
+    align-items: center;
+   justify-content: space-between;
+   font-size: 20px;
+   
+   
+}
+.butao{
+    color: black;
+    outline-color: black;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid  rgba(0, 0, 0, 0.3);
+    
+}
+.butao:hover{
+    background-color: white;
+    color: black;
+    border: black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 5px 10px 0 rgba(0, 0, 0, 0.19);
+
+}
+.butao:active{
+    background-color: none;
+}
+.search.png{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 5px 50px 0 rgba(0, 0, 0, 0.19);
+}
+.card:hover{
+
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 5px 10px 0 rgba(0, 0, 0, 0.19);
+    transform: scale(1.1); 
+    transition: transform 0.2s;
+    z-index: 2;
+    position: relative;
+    width: 200px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    text-align: center;
+    
+    
+}
+.são{
+    box-shadow: 0 4px 8px 0 rgb(255, 255, 255), 0 5px 10px 0 rgb(255, 255, 255);
+}
+.fla{
+    box-shadow: 0 4px 8px 0 rgb(255, 0, 0), 0 5px 10px 0 rgb(255, 255, 255);
+}
+.santos{
+    box-shadow: 0 4px 8px 0 rgb(61, 60, 60), 0 5px 10px 0 rgb(0, 0, 0);
+}
+.pal{
+    box-shadow: 0 4px 8px 0 rgb(26, 255, 0), 0 5px 10px 0 rgb(255, 255, 255);
+}
+.carrinho img{
+    width: 30px;
+    height: 30px;
+}
+.carrinho :hover{
+    transform: scale(1.1); 
+    transition: transform 0.2s;
+}
+
+
+.adicionar{
+    color: black;
+    outline-color: black;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid  rgba(0, 0, 0, 0.3);
+
+}
+.adicionar :hover{
+    background-color: white;
+    color: black;
+    border: black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 5px 10px 0 rgba(0, 0, 0, 0.19);
+
+}
+.a{
+    color: white;
+}
+
+
+
